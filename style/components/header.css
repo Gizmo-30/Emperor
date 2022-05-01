@@ -186,7 +186,7 @@
 
 @media(max-width:1320px) {
     .header__title {
-        font-size: calc(20px + (56 - 20) * ((100vw - 320px) / (1320 - 320)));
+        font-size: calc(26px + (56 - 20) * ((100vw - 320px) / (1320 - 320)));
         line-height: calc(10% + (129% - 50) * ((100vw - 320px) / (1320 - 320)));
     }
     .header__underTitle {
