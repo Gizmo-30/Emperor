@@ -185,20 +185,10 @@
 }
 
 @media(max-width:1320px) {
-    .header__title {
-        font-size: calc(26px + (56 - 20) * ((100vw - 320px) / (1320 - 320)));
-        line-height: calc(10% + (129% - 50) * ((100vw - 320px) / (1320 - 320)));
-    }
-    .header__underTitle {
-        font-size: calc(90px + (160 - 90) * ((100vw - 320px) / (1320 - 320))); 
-        line-height: calc(60px + (130 - 60) * ((100vw - 320px) / (1320 - 320)));   
-    }
     .header__partners {
         position: static;
+        bottom: 0;
         margin-top: calc(30px + (50 - 20) * ((100vw - 320px) / (1320 - 320)));
-    }
-    .header__btn {
-        font-size: calc(20px + (56 - 20) * ((100vw - 320px) / (1320 - 320)));
     }
 }
 
@@ -207,7 +197,48 @@
         flex-wrap: wrap;
         column-gap: 100px;
         row-gap: 20px;
+        justify-content: center;
     }
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__btn {
+        max-width: none;
+        width: 184px;
+        background: #3754DB;
+        color: white;
+    }
+
+    .header__btn div::before {
+        content: url('../../images/buyNowFill.svg');
+    }
+
+    .header__underTitle {
+        font-size: 120px;
+    }
+    .header__title {
+        line-height: 70px;
+    }
+}
+
+@media(max-width:600px) {
+    .header__btn {
+        width: 85%;
+        padding: 10px;
+    }
+    .header__btns {
+        flex-direction: column;
+        width: 100%;
+        row-gap: 10px;
+        align-items: center;
+    }
+
+    .header__title {
+        text-align: center;
+    }
+
 }
 
 
