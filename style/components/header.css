@@ -1,0 +1,213 @@
+.nav {
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.03);
+    padding: 35px;    
+}
+.nav__content {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    display: flex;
+    column-gap: 13px;
+}
+
+.nav__title {
+    color: var(--MainText);
+    line-height: 44px;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    font-family: var(--GS);
+}
+
+.nav__menu {
+    display: flex;
+    column-gap: 39px;    
+}
+
+.nav__link {
+    color: var(--MainText);
+    line-height: 24px;
+    font-size: 16px;
+    font-family: var(--GR);
+}
+
+.nav__search {
+    color: #959EAD;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: var(--GR);
+    background: #F9FAFB;
+    border-radius: 45px;
+    width: 397px;
+    padding: 12px 15px;
+    outline: none;
+    border: none;
+}
+
+.nav__bag {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.nav__cart {
+    border: 1px solid #F4F6F8;
+    border-radius: 50%;
+    padding: 12px 16px;
+    position: relative;
+}
+
+.nav__cartTitle {
+    color: var(--MainText);
+    line-height: 20px;
+    font-size: 16px;
+    font-family: var(--GM);
+}
+
+.nav__span {
+    color: white;
+    line-height: 18px;
+    font-size: 12px;
+    font-family: var(--ROM);
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background:  #DE3618;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+}
+
+.nav__aside {
+    background: #F9FAFB;
+}
+
+.header__content {
+    position: relative;
+}
+
+
+.header__about {
+    position: relative;
+    display: inline-block;
+}
+
+.header__title {
+    color: var(--MainText);
+    line-height: 129%;
+    font-size: 56px;
+    letter-spacing: 0.2px;
+    font-family: var(--GS);
+    max-width: 410px;
+    width: 100%;
+}
+
+.header__underTitle {
+    color: rgba(22, 29, 37, 0.07);
+    line-height: 130px;
+    font-size: 160px;
+    letter-spacing: 0.2px;
+    font-family: var(--GS);
+    position: absolute;
+    z-index: -1;
+    top: -60px;
+}
+
+.header__btns {
+    display: flex;
+    column-gap: 24px;
+    margin-top: 24px;
+}
+
+.header__btn {
+    display: flex;
+    color: #3754DB;
+    line-height: 14px;
+    font-size: 16px;
+    font-family: var(--GS);
+    border: 1px solid #3754DB;
+    border-radius: 50px;
+    transition: 0.5s;
+    max-width: 184px;
+    width: 100%;
+    padding: 16px 0;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.header__btn div::before {
+    content: url('../../images/buyNow.svg');
+}
+
+.header__btn:hover {
+    background: #3754DB;
+    color: white;
+    
+}
+.header__btn:hover div::before {
+    content: url('../../images/buyNowFill.svg');
+}
+
+.header__partners {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    position: absolute;
+    right: -200px;
+    bottom: 39px;
+}
+
+.header__partnersLogo {
+    display: block;
+}
+
+@media(max-width:1700px) {
+    .header__partners {
+        column-gap: calc(10px + (100 - 15) * ((100vw - 768px) / (1700 - 768)));
+        right: -60px;
+    }    
+}
+
+@media(max-width:1418px) {
+    .header__partners {
+        bottom: 0;
+        right: 40px;
+    }    
+}
+
+@media(max-width:1350px) {
+
+}
+
+@media(max-width:1320px) {
+    .header__title {
+        font-size: calc(20px + (56 - 20) * ((100vw - 320px) / (1320 - 320)));
+        line-height: calc(10% + (129% - 50) * ((100vw - 320px) / (1320 - 320)));
+    }
+    .header__underTitle {
+        font-size: calc(90px + (160 - 90) * ((100vw - 320px) / (1320 - 320))); 
+        line-height: calc(60px + (130 - 60) * ((100vw - 320px) / (1320 - 320)));   
+    }
+    .header__partners {
+        position: static;
+        margin-top: calc(30px + (50 - 20) * ((100vw - 320px) / (1320 - 320)));
+    }
+    .header__btn {
+        font-size: calc(20px + (56 - 20) * ((100vw - 320px) / (1320 - 320)));
+    }
+}
+
+@media(max-width:768px) {
+    .header__partners {
+        flex-wrap: wrap;
+        column-gap: 100px;
+        row-gap: 20px;
+    }
+}
+
+

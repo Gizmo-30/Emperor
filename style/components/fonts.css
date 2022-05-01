@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'AvertaCY-Regular';
+    src: url(../../fonts/AvertaCY-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(../../fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(../../fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(../../fonts/Gilroy-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url(../../fonts/Rubik-Medium.ttf);
+}
