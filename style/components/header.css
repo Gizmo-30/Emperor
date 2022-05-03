@@ -150,7 +150,7 @@
     content: '';
     display: block;
     background: #3754DB;
-    width: 50px;
+    width: calc(30px + (50 - 30) * ((100vw - 320px) / (1320 - 320)));
     height: 3px;
     border-radius: 10px;
 }
