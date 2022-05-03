@@ -349,11 +349,10 @@
     
     .nav__burgerLine {
         height: 2px;
-    
     }
     
     .nav__burger {
-        row-gap: 5px;
+        row-gap: 7px;
     }
 
     .nav__cart {
