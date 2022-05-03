@@ -309,7 +309,8 @@
         font-size: 120px;
     }
     .header__title {
-        line-height: 70px;
+        line-height: 60px;
+        font-size: 50px;
     }
     .nav__cartTitle {
         display: none;
@@ -366,6 +367,11 @@
 
     .nav__cart img {
         transform: scale(0.9);
+    }
+
+    .nav__aside {
+        max-width: 100vw;
+        left: -100vh;
     }
 
 }
