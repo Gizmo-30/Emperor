@@ -9,16 +9,21 @@
     <link rel="icon" href="../images/logo.svg">
 </head>
 <body>
+    <aside class="aside nav__aside">
+        <a href="#" class="aside__btn">
+            <span class="aside__btnLine"></span>
+            <span class="aside__btnLine"></span>
+        </a>
+    </aside>
     <header class="header">
         <nav class="nav header__nav">
             <div class="container">
                 <div class="nav__content">
-                    <div class="nav__burger">
+                    <a href="#" class="nav__burger">
                         <span class="nav__burgerLine"></span>
-                    </div>
-                    <aside class="nav__aside">
-
-                    </aside>
+                        <span class="nav__burgerLine"></span>
+                        <span class="nav__burgerLine"></span>
+                    </a>
                     <a href="#" class="nav__logo">
                         <img src="../images/logo.svg" alt="company logo">
                         <h2 class="nav__title">Emperor</h2>
@@ -28,9 +33,7 @@
                         <li><a href="#" class="nav__link">Мужское</a></li>
                         <li><a href="#" class="nav__link">Женское</a></li>
                     </ul> 
-                    <form action="nav__form">
-                        <input type="text" name="search" class="nav__search" placeholder="Search something…">
-                    </form> 
+                    <input type="text" name="search" class="nav__search" placeholder="Search something…">
                     <a href="" class="nav__bag">
                         <div class="nav__cart">
                             <img src="../images/bag.svg" alt="">
@@ -41,6 +44,7 @@
                 </div>
             </div>    
         </nav>
+        <img src="../images/header.png" alt="" style="width: 100%;">
         <div class="container">
             <div class="header__content">
                 <div class="header__about">
@@ -80,5 +84,7 @@
             </div>
         </div>
     </header>    
+    
+    <script src="../script/app.js"></script>
 </body>
 </html>
