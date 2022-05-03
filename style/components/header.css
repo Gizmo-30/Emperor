@@ -315,6 +315,10 @@
         display: none;
     }
 
+    .nav__cart {
+        padding: 8px 13px;
+    }
+
 }
 @media(max-width:600px) {
     .header__partners {
