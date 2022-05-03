@@ -62,7 +62,7 @@
 }
 @media(max-width:500px) {
     .nav__cart {
-        padding: 6px 12px;
+        padding: 4px 10px;
     }
 }
 
@@ -78,8 +78,8 @@
     line-height: 18px;
     font-size: 12px;
     font-family: var(--ROM);
-    width: 19px;
-    height: 19px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background:  #DE3618;
     position: absolute;
@@ -155,9 +155,20 @@
     content: '';
     display: block;
     background: #3754DB;
-    width: calc(30px + (50 - 30) * ((100vw - 320px) / (1320 - 320)));
+    width: calc(25px + (50 - 25) * ((100vw - 320px) / (1320 - 320)));
     height: 3px;
     border-radius: 10px;
+}
+
+@media(max-width:600px) {
+    .nav__burgerLine {
+        height: 2px;
+
+    }
+
+    .nav__burger {
+        row-gap: 5px;
+    }
 }
 
 
