@@ -1,4 +1,4 @@
-class BurgerMenu {
+    class BurgerMenu {
     constructor(obj) {
         this.button1 = document.querySelector(obj.button1)
         this.button2 = document.querySelector(obj.button2)
