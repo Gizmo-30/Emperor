@@ -43,7 +43,7 @@
 }
 
 .card__about {
-    padding: calc(10px + (27 - 10) * ((100vw - 320px) / (1920 - 320))) calc(13px + (30 - 13g) * ((100vw - 320px) / (1920 - 320)));
+    padding: calc(10px + (27 - 10) * ((100vw - 320px) / (1920 - 320))) calc(13px + (30 - 13) * ((100vw - 320px) / (1920 - 320)));
     display: flex;
     justify-content: space-between;
     align-items: center;
