@@ -53,8 +53,8 @@
 .card__cart {
     position: absolute;
     background: white;
-    bottom: 40px;
-    right: 30px;
+    bottom: calc(20px + (40 - 10) * ((100vw - 320px) / (1920 - 320)));
+    right: calc(10px + (30 - 10) * ((100vw - 320px) / (1920 - 320)));
 }
 
 .cards {

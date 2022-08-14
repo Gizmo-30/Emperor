@@ -57,7 +57,7 @@
 .cart {
     border: 1px solid #F4F6F8;
     border-radius: 50%;
-    padding: calc(3px + (12 - 3) * ((100vw - 320px) / (1920 - 320))) calc(7px + (16 - 7) * ((100vw - 320px) / (1920 - 320)));
+    padding: calc(2px + (12 - 2) * ((100vw - 320px) / (1920 - 320))) calc(7px + (16 - 7) * ((100vw - 320px) / (1920 - 320)));
     position: relative;
 }
 
