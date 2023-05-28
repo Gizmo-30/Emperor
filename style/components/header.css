@@ -195,7 +195,7 @@
     margin-top: 24px;
 }
 
-.header__btn {
+.btn {
     display: flex;
     color: #3754DB;
     line-height: 14px;
@@ -213,7 +213,7 @@
 }
 
 .header__btn div::before {
-    content: url('../../images/buyNow.svg');
+    content: url('../../images/header/buyNow.svg');
 }
 
 .header__btn:hover {
@@ -222,7 +222,7 @@
     
 }
 .header__btn:hover div::before {
-    content: url('../../images/buyNowFill.svg');
+    content: url('../../images/header/buyNowFill.svg');
 }
 
 .header__partners {
@@ -317,7 +317,7 @@
 }
 
 @media(max-width:480px) {
-    .header__btn {
+    .btn {
         width: 90%;
         padding: 10px;
     }

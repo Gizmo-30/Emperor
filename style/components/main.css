@@ -1,10 +1,13 @@
 
-.main__title1 {
+.section__title {
     color: #161D25;
     font-size: 40px;
     line-height: 52px;
     letter-spacing: 0.2px;
     font-family: var(--GS);
+}
+
+.main__title1 {
     text-align: center;
 }
 
@@ -82,4 +85,54 @@
         grid-template-columns: repeat(1,1fr);
     }
 
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.sectiion {
+}
+.main__section2 {
+}
+.section2 {
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    background: url('../../images/main/section2-bg1.png') no-repeat;
+    height: 602px;
+    padding: 20px 20px 20px calc(20px + (120 - 20) * ((100vw - 375px) / (1920 - 375))) ;
+    
+
+}
+
+.section2__content {
+
+}
+.section2__title {
+    color: white;
+}
+.section2__text {
+    color: #9D9D9D;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: var(--GR);
+    max-width: 449px;
+    width: 100%;
+    margin: 20px 0 30px 0;
+}
+.section2__btn {
+    background: #3754DB;
+    color: white;
+}
+.section2__icon {
+}
+.section2__right {
+}
+.section2__bg {
+}
+
+
+@media(max-width:480px) {
+    
 }
