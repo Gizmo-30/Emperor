@@ -319,7 +319,6 @@
 @media(max-width:480px) {
     .btn {
         width: 90%;
-        padding: 10px;
     }
     .header__btns {
         flex-direction: column;

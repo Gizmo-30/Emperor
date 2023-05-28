@@ -65,12 +65,10 @@
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     grid-gap: calc(15px + (30 - 10) * ((100vw - 600px) / (1920 - 600)));
-}
-
-.section__cards1 {
     margin-top: 60px;
 }
-.main__section1 {
+
+.section {
     margin: calc(50px + (160 - 50) * ((100vw - 320px) / (1920 - 320)))  0 calc(40px + (160 - 40) * ((100vw - 320px) / (1920 - 320))) 0;
 }
 
@@ -91,10 +89,6 @@
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.sectiion {
-}
-.main__section2 {
-}
 .section2 {
     display: flex;
     align-items: center;
@@ -102,13 +96,8 @@
     background: url('../../images/main/section2-bg1.png') no-repeat;
     height: 602px;
     padding: 20px 20px 20px calc(20px + (120 - 20) * ((100vw - 375px) / (1920 - 375))) ;
-    
-
 }
 
-.section2__content {
-
-}
 .section2__title {
     color: white;
 }
@@ -125,14 +114,11 @@
     background: #3754DB;
     color: white;
 }
-.section2__icon {
-}
-.section2__right {
-}
-.section2__bg {
-}
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-@media(max-width:480px) {
-    
+.section3__title {
+    text-align: center;
 }
