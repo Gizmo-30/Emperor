@@ -47,3 +47,29 @@ let burgerMenu = new BurgerMenu({
     nav:'.header__nav',
     extra:'.nav__bag',
 })
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+const arrow = document.querySelectorAll('.arrow'),
+    dropDown = document.querySelectorAll('.dropDown__content'),
+    title = document.querySelectorAll('.navbar__title'),
+    menu = document.querySelectorAll('.navbar__menu')
+
+title.forEach((element,index) => {
+    element.addEventListener('click', () => {
+        cleanMenu()
+        menu[index].classList.toggle('active')
+
+    })
+});
+
+function cleanMenu() {
+    menu.forEach(item => {
+        item.classList.remove('active')    
+    })
+}
